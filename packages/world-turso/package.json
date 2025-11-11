@@ -1,0 +1,30 @@
+{
+  "name": "@workflow/world-turso",
+  "version": "0.1.0",
+  "description": "Workflow orchestration system for Cloudflare Workers and Turso",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "echo \"No linter configured yet\" && exit 0"
+  },
+  "keywords": [
+    "workflow",
+    "cloudflare",
+    "workers",
+    "turso",
+    "sqlite",
+    "orchestration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0"
+  }
+}
